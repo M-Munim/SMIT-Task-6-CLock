@@ -42,11 +42,20 @@ body {
         color: #232946;
 
         span {
-            width: 40%;
+            width: 37%;
+            height: 200px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: red;
+            background: #fdfbf96d;
+            border-radius: 5px;
+            font-size: 1.8rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .bold-inline {
+            display: inline;
         }
     }
 }

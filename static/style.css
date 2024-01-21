@@ -38,11 +38,19 @@ body {
   color: #232946;
 }
 .main .body span {
-  width: 40%;
+  width: 37%;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: red;
+  background: rgba(253, 251, 249, 0.4274509804);
+  border-radius: 5px;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+}
+.main .body .bold-inline {
+  display: inline;
 }
 
 .footer {
